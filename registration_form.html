@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+<!--Author: Steve Cho A00840942
+	This page has a registration form to collect participants' information
+ -->
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href ="css/stylesheet.css">
+		<title>Final Project</title>
+	</head>
+	
+	<body>
+		<div id="header">
+		
+		<h1>Registeration Form</h1>
+			<nav>
+					<ul class= "nav_bar">
+						<li><a class="nav_link" href="index.html"> About Program </a></li>
+						<li><a class="nav_link" href="profile.html">Master's Profile</a></li>
+						<li><a class="nav_link" href="gallery.html"> Gallery</a></li>
+						<li><a class="nav_link" href="calendar.html">Calendar</a></li>
+						<li><a class="nav_link" href="registration_form.html">Registeration Form</a></li>
+						<li><a class="nav_link" href="contact.html">Contact Us</a></li>
+						<li><a class="nav_link" href="site_map.html"> Site Map</a><li>		
+					</ul>		
+			</nav>
+		</div>
+	
+	<form class="section" method="post">	
+	
+		<fieldset>	
+			<legend>Personal Information</legend>
+				<label 	for="firstname">First Name</label>
+			<input 	type="text" 
+					id="firstname" 
+					name="firstname" />
+					<br />
+					
+				<label 	for="lastname">Last Name</label>
+			<input 	type="text" 
+					id="lastname" 
+					name="lastname" />
+					<br />
+				
+				<label 	for="address">Address</label>
+			<input 	type="text" 
+					id="address" 
+					name="address"/>
+					<br/>
+					
+				<label 	for="city">City</label>
+			<input 	type="text" 
+					id="city" 
+					name="city"/>
+					<br/>	
+				
+				<label 	for="postal_code">Postal Code</label>
+			<input 	type="text" 
+					id="postal_code" 
+					name="postal_code"/>
+					<br/>
+					
+				<label 	for="phone_number">Phone Number</label>
+			<input 	type="text" 
+					id="phone_number" 
+					name="phone_number"/>
+					<br/>	
+				
+				<label 	for="email">E-mail Address</label>
+			<input 	type="text" 
+					id="email" 
+					name="email"/>
+					<br/>	
+		</fieldset>
+			
+		<fieldset>
+			<legend>Title</legend>
+			<input 	type="radio" 
+					id="Mr" 
+					name="prefix" />	
+			<label 	for="Mr">Mr</label>	
+			<br />		
+			<input 	type="radio" 
+					id="Mrs" 
+					name="prefix" />	
+			<label 	for="Mrs">Mrs</label>	
+			<br />
+			<input 	type="radio" 
+					id="Ms" 
+					name="prefix" />	
+			<label 	for="Ms">Ms</label>
+		</fieldset>		
+		
+			
+		<fieldset>
+			<legend>What programs are you interested in?</legend>
+			<input 	type="checkbox" 
+					id="after_school" 
+					name="program" />	
+			<label 	for="after_school">After School Program Weekdays 3:30pm - 5:30pm</label>	
+			<br />				
+			
+			<input 	type="checkbox" 
+					id="adult_program" 
+					name="program" />	
+			<label 	for="adult_program">Adult Program Weekends 10:30am -  12:30pm</label>	
+			<br />	
+		</fieldset>	
+	
+		<textarea 	name="comments" 
+					placeholder="Describe a little bit about yourself and any martial arts experience you've had"
+					id="comments"></textarea>
+		<br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+	
+	</body>
+
+</html>
