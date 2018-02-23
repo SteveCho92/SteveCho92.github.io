@@ -1,0 +1,19 @@
+{
+  "name": "video_stream",
+  "version": "1.0.0",
+  "description": "video_stream_tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Cho",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.1.7",
+    "watchify": "^3.10.0"
+  },
+  "dependencies": {
+    "simple-peer": "^9.0.0"
+  }
+}
